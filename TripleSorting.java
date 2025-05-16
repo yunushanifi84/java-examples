@@ -1,17 +1,17 @@
 import java.util.Scanner;
-public class UcluSiralama {
+public class TripleSorting {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scanf = new Scanner(System.in);
-		System.out.println("Sayıları Giriniz:");
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the Numbers:");
 		int a,b,c;
-		a=scanf.nextInt();
-		b=scanf.nextInt();
-		c=scanf.nextInt();
+		a=input.nextInt();
+		b=input.nextInt();
+		c=input.nextInt();
 		if((a>b)&&(a>c)) {
 			if(b>c) {
-				System.out.println("a > b >c");
+				System.out.println("a > b > c");
 			}
 			else {
 				System.out.println("a > c > b");
@@ -34,9 +34,6 @@ public class UcluSiralama {
 			}
 		}
 		
-		
-		
-	
 	}
 
-}
+} 
